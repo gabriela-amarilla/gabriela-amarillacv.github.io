@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0% 20% 5% 20% ; /*declaracion de margen en una linea (top left bottom right*/
+}
+
+header {
+    text-align: center;
+    background-color: lavender;
+    padding: 10px;
+    margin: 50px;
+
+}
+
+main {
+    margin: 50px 100px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px ;
+    margin: 5px 100px 100px 100px;
+    background-color: beige;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: dashed;
+}
+
+section {
+    padding: 5px;
+    border-bottom: 0.5px gainsboro solid;
+    /*animation-duration: 2s;
+    animation-name: fadein;*/
+}
+
+/*@keyframes fadein {
+    from {
+        margin-left: 100%;
+    }
+    to{
+        margin-left: 0%;
+    }
+}*/
+
+.menu-fijo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%  ;
+    z-index: 10; /*posicion en donde queda el menu en la medida que hay desplazamiento*/
+}
+
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 0.5px  gainsboro solid;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.foto {
+    width: 200px;
+    border-radius: 8px;
+    margin: 50px 50px;
+    float: right;
+}
+
+.pie-pagina {
+    text-align: center;
+}
