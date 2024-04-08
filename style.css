@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    margin: 0 ; /*declaracion de margen en una linea (top left bottom right*/
+    padding: 0;
+    background-color: #fa7774;
+    overflow-x: hidden;
+}
+
+.izquierda {
+    background-color: #a8d0e6;
+    height: 100vh;
+    width: 60%;
+}
+
+.derecha{
+    background-image: url(IMG_5606.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 100vh;
+
+}
+
+.nombre {
+    color: aliceblue;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+.izquierda1{
+    height: 50vh;
+    width: 50%;
+}
+
+.derecha1{
+    height: 50vh;
+    width: 50%;
+}
+#pantalla-media {
+    display: flex;
+}
+
+header {
+    font-size: 50px;
+    text-align: auto;
+    padding: 0px;
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 50%;
+    font-family: "Bebas Neue", sans-serif;
+    animation-duration: 2s;
+    animation-name: fadeIn;
+
+}
+
+@keyframes fadeIn {
+    from { 
+        margin-left: 50%;
+    }
+    to {
+        margin-left: 10%;
+    }
+}
+
+main {
+    margin: 10%;
+    margin-top: -5%;
+}
+
+nav {
+    text-align: center;
+    padding: 10px ;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: dashed;
+}
+
+/*section {
+    padding: 5px;
+    border-bottom: 0.5px gainsboro solid;
+}*/
+
+.menu-fijo {
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 40%  ;
+    z-index: 10; /*posicion en donde queda el menu en la medida que hay desplazamiento*/
+}
+
+#acerca-de-mi {
+    margin: 5%;
+
+}
+
+#habilidades {
+    margin: 5%;
+}
+
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#habilidades ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 0.5px  gainsboro solid;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#experiencia {
+    margin-left: 17%;
+}
+
+.cursiva {
+    font-style: italic;
+    font-size: 13px;
+}
+
+#proyectos{
+    margin-left: 17%;
+
+}
+
+
+.contacto {
+    width: 100%;
+    margin: 5%;
+
+}
+
+form {
+    width: 50%;
+    border-radius: 20%;
+    padding: 0;
+
+}
+
+input, textarea {
+    outline: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.field {
+    border: solid 1px #ccc;
+    border-radius: 2px;
+    width: 200px;
+    padding: 5px;
+    
+}
+
+.field:focus {
+    border-color: #fa7774 !important;
+}
+.pie-pagina {
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+}
